@@ -13,9 +13,10 @@ notifications:
   email:
     recipients:
       - claudiojvv10@gmail.com
-      - claudio_jesus_10@hotmail.com
+      - claudio_jesus10@hotmail.com
     on_success: always
     on_failure: always
+  slack: travis-ciworkspace:CS5CKYwmnzp1V4wJwbJAhuhG
 deploy:
   provider: pages
   skip_cleanup: true
